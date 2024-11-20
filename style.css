@@ -1036,11 +1036,7 @@ a {
   transition: 0.6s ease-out;
 }
 
-/* Link Effect
- - Place anywhere you want your link to animate
- - Add data-after="Any text" to the link within the class
- - Use span within the anchor tag for the effect to work
-------------------------------------------------------------- */
+
 .link-effect a {
   position: relative;
   padding: 0;
