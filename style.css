@@ -1,27 +1,4 @@
-/*
-Theme Name: Kaira - Bootstrap 5 Fashion Store HTML CSS Template
-Theme URI: https://templatejungle.com/
-Author: TemplatesJungle
-Author URI: https://templatejungle.com/
-Description: Kaira - Bootstrap 5 Fashion Store HTML CSS Template is specially designed product packaged for Fashion Stores by TemplatesJungle.
-Version: 1.1
-*/
 
-/*--------------------------------------------------------------
-This is main CSS file that contains custom style rules used in this template
---------------------------------------------------------------*/
-
-/*------------------------------------*\
-    Table of contents
-\*------------------------------------*/
-
-/*------------------------------------------------
-CSS STRUCTURE:
-
-1. VARIABLES
-2. GENERAL TYPOGRAPHY
-
---------------------------------------------------------------*/
 body {
   --heading-font: "Marcellus", Roboto, sans-serif;
   --heading-font-weight: 400;
@@ -314,11 +291,7 @@ a {
   transition: background-size 1s ease-in-out;
 }
 
-/* .slideshow .swiper-slide.swiper-slide-active {
-  background-size: 120%;
-} */
 
-/* fade in */
 .slideshow.fade-in .swiper-slide .banner-content {
   opacity: 0;
   transition: opacity 0.3s ease-out;
@@ -329,7 +302,6 @@ a {
   opacity: 1;
 }
 
-/* slide in */
 .slide-in .swiper-slide .banner-content h2,
 .slide-in .swiper-slide .banner-content p,
 .slide-in .swiper-slide .banner-content .btn {
@@ -413,7 +385,7 @@ a {
   animation: 1s swipe-up forwards;
 }
 
-/*.down-leave-active { animation: 1s down-leave; }*/
+
 @keyframes swipe-up {
   0% {
     clip-path: inset(0 0 100% 0);
@@ -548,73 +520,7 @@ a {
   transform: scale(1);
 }
 
-/* .txt-fx .letter:nth-child(1) {
-  transition-delay: calc(var(--delay) * 1);
-}
 
-.txt-fx .letter:nth-child(2) {
-  transition-delay: calc(var(--delay) * 2);
-}
-
-.txt-fx .letter:nth-child(3) {
-  transition-delay: calc(var(--delay) * 3);
-}
-
-.txt-fx .letter:nth-child(4) {
-  transition-delay: calc(var(--delay) * 4);
-}
-
-.txt-fx .letter:nth-child(5) {
-  transition-delay: calc(var(--delay) * 5);
-}
-
-.txt-fx .letter:nth-child(6) {
-  transition-delay: calc(var(--delay) * 6);
-}
-
-.txt-fx .letter:nth-child(7) {
-  transition-delay: calc(var(--delay) * 7);
-}
-
-.txt-fx .letter:nth-child(8) {
-  transition-delay: calc(var(--delay) * 8);
-}
-
-.txt-fx .letter:nth-child(9) {
-  transition-delay: calc(var(--delay) * 9);
-}
-
-.txt-fx .letter:nth-child(10) {
-  transition-delay: calc(var(--delay) * 10);
-}
-
-.txt-fx .letter:nth-child(11) {
-  transition-delay: calc(var(--delay) * 11);
-}
-
-.txt-fx .letter:nth-child(12) {
-  transition-delay: calc(var(--delay) * 12);
-}
-
-.txt-fx .letter:nth-child(13) {
-  transition-delay: calc(var(--delay) * 13);
-}
-
-.txt-fx .letter:nth-child(14) {
-  transition-delay: calc(var(--delay) * 14);
-}
-
-.txt-fx .letter:nth-child(15) {
-  transition-delay: calc(var(--delay) * 15);
-}
-
-.txt-fx .letter:nth-child(16) {
-  transition-delay: calc(var(--delay) * 16);
-} */
-
-
-/** Search Popup
---------------------------------------------------------------*/
 .search-popup {
   background-color: #fff;
   position: fixed;
@@ -830,8 +736,7 @@ a {
   }
 }
 
-/** Swiper Slide Arrows 2
---------------------------------------------------------------*/
+
 .icon-arrow.no-outline {
   top: 40%;
   font-size: 1.7em;
